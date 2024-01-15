@@ -70,7 +70,7 @@ header{
     transition: 0.4s;
 }
 body{
-    background:url(images/bg.avif);
+    background:url(bg.avif);
     background-size:     cover;                     
     background-repeat:   no-repeat;
     background-position: center center;
