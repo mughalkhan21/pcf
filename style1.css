@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+body{
+    background-color: rgb(30, 10, 49);
+}
+header{
+    display: flex;
+    margin: 3px 100px;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul a{
+    text-decoration: none;
+    padding: 0px 35px;
+    
+}
+.navbar ul a li{
+    list-style: none;
+    margin: 0px  4px;
+}
+.navbar{
+    background:rgba(204, 201, 201, 0.7);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px  rgb(107, 106, 106);
+    transition: 0.5s ease-in-out;
+}
+.navbar:hover{
+    background:rgba(204, 201, 201, 0.25);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 5px  rgb(255, 255, 255);
+
+}
+
+.navbar ul a:hover{
+    text-decoration: dashed;
+    color:#df4a0f;
+    transition: 0.4s;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.os{
+    font-size: 250%;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.card{
+    /* position: relative; */
+    top: -90px;
+    left:-90px;
+    z-index: 1;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0
+    ,0.15);
+    margin: 10px 45px;
+    padding: 10px;
+    opacity: 50%;transition: 0.5s;
+    }
+.card:hover{
+    opacity: 100%;
+}
+.ser1{
+    display: flex;
+    margin-bottom: 100px;
+}
+.ser2{
+    display: flex;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.profiles{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    animation-name: animate;
+    animation-duration: 2s;
+    background: #5c575757;
+    padding: 50px;
+    margin: 100px;
+    border-radius: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    @keyframes animate {
+        0%   {top: -90px;left:-90px;}
+        30%  {top: -60px;left:-60px;box-shadow: 0 0 30px rgba(0,0,0,0.15);transform: scale(.8);opacity: .5;}
+        70%  {box-shadow: 0 0 10px rgba(0,0,0,0.15);transform: scale(1);opacity: 1;}
+                /* 100%   {top: -90px;left:-90
+                    px;position: relative;} */
+    }
+.pros{
+    border-radius: 50px;
+    transition: 0.4s;
+}
+.pros:hover{
+    scale: 1.2;
+}
+

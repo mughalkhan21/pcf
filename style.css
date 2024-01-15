@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: medium;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    margin: 3px 100px;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul a{
+    text-decoration: none;
+    padding: 0px 35px;
+    
+}
+.navbar ul a li{
+    list-style: none;
+    margin: 0px  4px;
+}
+#logo{
+    position: absolute;
+    left : 4px;
+    top: 2px;
+    font-size: 40px;
+}
+#logoimg{
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px black;
+    transition: 0.5s;
+}
+#logoimg:hover{
+    scale: 1.2;
+    box-shadow: -15px -15px 10px 5px black;
+}
+.navbar{
+    background:rgba(204, 201, 201, 0.7);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px  rgb(68, 67, 67);
+    transition: 0.5s ease-in-out;
+}
+.navbar:hover{
+    background:rgba(204, 201, 201, 0.25);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px 5px  rgb(255, 255, 255);
+
+}
+
+.navbar ul a:hover{
+    text-decoration: dashed;
+    color:#df4a0f;
+    transition: 0.4s;
+}
+body{
+    background:url(images/bg.avif);
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+h1{
+
+    color: rgb(46, 51, 51);
+    font-size: 1.9em;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cont1{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+}
+
+
+
